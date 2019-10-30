@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+
+  
+
+  .productos{
+
+    display: inherit;
+    height: auto;
+    justify-content: center;
+    text-align: center
+
+  }
+  .pro{
+margin-top: auto;
+
+justify-content: center;
+text-align: center;
+
+  }
+
+  .segundaseccioton{
+display: inherit;
+
+  }
+
+  .terceradivicio{
+display: inherit;
+
+  }
+
+}

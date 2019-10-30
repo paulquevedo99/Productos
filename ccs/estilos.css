@@ -1,0 +1,238 @@
+
+/* varibles*/
+
+:root{
+
+--green-color:#7acc2d;
+
+/*espaciado */
+--space: 10px;
+
+
+
+
+}
+
+
+
+html, body{
+padding: 0px;
+margin:0px;
+font-size: 12px;
+font-family:  Hervetica;
+}
+nav{
+display: flex;
+  background-color: var(--green-color);
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul
+{
+  display: flex;
+
+}
+nav li{
+  padding-left:  20px;
+list-style: none;
+
+
+}
+nav  li a{
+
+  color: black;
+  text-decoration: none;
+}
+nav  li a:hover{
+
+color:white;
+}
+
+/* inicio main main_section */
+.main_section{
+  padding: 1%;
+  text-align: center;
+
+
+}
+
+.productos{
+   /*centra imag*/
+
+  padding: 1%;
+   align-items: center;
+   display: flex;
+     text-align: center;
+     justify-content: center;
+
+
+
+
+
+
+}
+.pro{
+
+padding: 10px;
+
+
+
+}
+.pro .contenido {
+
+  background-color: white;
+  padding: 10%;
+  box-shadow: 0 0 2px gray;
+
+}
+
+.imacontext{
+  text-align: center;
+  margin: auto;
+
+}
+.main_boton{
+background-color: var(--green-color);
+width: 100%;
+padding: 10px;
+font-size: 12px;
+color: white;
+border:0;
+border-radius: 2px;
+cursor: pointer;
+
+}
+.main_boton:hover{
+background-color: #308518;
+
+}
+
+
+.segundaseccioton{
+
+  background-color: white;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.sectionsegunda {
+ background-color: white;
+ padding: 20px;
+ align-items: center;
+ display: flex;
+   text-align: center;
+   justify-content: center;
+
+
+}
+.contens
+{
+
+  background-color:white;
+  padding: 2%;
+  box-shadow: 0 0 8px gray;
+
+
+
+}
+
+
+
+.terceradivicio{
+
+  background-color: white;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+  .fotografias{
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+      text-align: center;
+      justify-content: center;
+
+  }
+  .foro1{
+    background-color:white;
+    padding: 2%;
+    box-shadow: 0 0 8px gray;
+
+  }
+
+  .terceradivicio ppp{
+    text-align-last: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .terceradivicio h5{
+
+    text-align: left;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+
+  footer{
+background-color: #626560;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+
+
+  }
+  footer h2{
+    color: white;
+    font-size: 12px;
+    font-family:  Hervetica;
+
+
+  }
+  footer address{
+
+    color: white;
+    font-size: 12px;
+    font-family:  Hervetica;
+  }
+
+  .modulopago{
+background-color: white;
+box-shadow: 0 0 1px gray;
+padding: 10px;
+
+  }
+  .modulopago main_boton{
+
+    margin-top: 10px;
+  }
+
+  label{
+font-size: 14px;
+
+
+
+
+  }
+  .data{
+    width: 100%;
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
